@@ -11,38 +11,43 @@ Create a set a test cases to validate Login Functionality.
 - Given - User navigates to the login page.
 - When - User enters a valid Username and password
 - Then - User should be able to view Dashboard. 
+
+
+*2.* Feature Home Page Validations
+- Scenerio - Once logged in, Homepage should be visible and all elements should be rendered. 
+- Given - A valid user is logged into the Dashboard
+- Then - Validate appropiate Page Title
+- And - Assert page is visible
+- And - Various Major links are accessible and working. 
 - And - User should be able to Logout. 
 
-*2.* Feature Login
-- Scenerio - A invalid user is not able to login into the application
-- Given - User navigates to the login page.
-- When - User enters a invalid Username and password
-- Then - User should not be able to view Dashboard. 
-- And - User should see an Error message to input a valid username or password. 
-
-*3.* Feature Forgot password link
-- Scenerio - A valid user should be able to request for a new password incase they need to reset their password. 
-- Given - User navigates to the login page.
-- When - User clicks on 'Forgot Password' Link
-- And - User should be able  to enter thier email.
-- Then - A Message should prompt user to access the reset password link from thier email. 
-
-*4.* Mobile View Login
+*3.* Feature - Mobile View 
 - Scenerio - A valid user is able to acces the application via mobile screen size. 
 - Given - User navigates to the login page.
 - When - User enters a valid Username and password
 - Then - User should be able to view Dashboard. 
 - And - User should be able to Logout. 
 
-*5.* Feature Home Page Validations
-- Scenerio - Once logged in, Homepage should be visible and all elements should be rendered. 
-- Given - A valid user is logged into the Dashboard
-- Then - Validate appropiate Page Title
-- And - Assert page is visible
-- And - Various Major links are accessible and working. 
+
+*4.* Feature Login
+- Scenerio - A invalid user is not able to login into the application
+- Given - User navigates to the login page.
+- When - User enters a invalid Username and password
+- Then - User should not be able to view Dashboard. 
+- And - User should see an Error message to input a valid username or password. 
+
+*5.* Feature Forgot password link
+- Scenerio - A valid user should be able to request for a new password incase they need to reset their password. 
+- Given - User navigates to the login page.
+- When - User clicks on 'Forgot Password' Link
+- And - User should be able  to enter thier email.
+- Then - A Message should prompt user to access the reset password link from thier email. 
+
+
+
 
 ### How to run tests
 
  - Git clone or Download this repo `entertom` 
  - Navigate to the Folder in the terminal and run `npm install` in terminal, this will install all the dependecies including cypress
-- Now to run the tests navigate to main folder `entertom` in your terminal and run command `npm cypress open`, this will open cypress UI and you can run all tests by clicking the spec files. 
+- Now to run the tests navigate to main folder `entertom` in your terminal and run command `npx cypress open`, this will open cypress UI and you can run all tests by clicking the spec files. 

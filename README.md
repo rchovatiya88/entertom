@@ -43,6 +43,11 @@ Create a set a test cases to validate Login Functionality.
 - And - User should be able  to enter thier email.
 - Then - A Message should prompt user to access the reset password link from thier email. 
 
+*6.* Feature Test API Endpoints
+- Scenerio - Validate api endpoints give 200 OK requests.
+- Given - cypress hits and url endpoint
+- When - cypress makes a request call
+- Then - Response should be 200 OK to show endpoints are working. 
 
 
 

@@ -4,8 +4,8 @@ describe ('Go to the Home Page', () => {
         cy.title().should('include', 'ENTREX' )
     })
     it ('1. Feature Login - A valid user is able to login into the application', () => {
-        cy.get('#email-input').type('')
-        cy.get('#password-input').type('')
+        cy.get('#email-input').type('rchovatiya88@gmail.com')
+        cy.get('#password-input').type('Password01')
         cy.get('#login-user-btn').click();
     })
 

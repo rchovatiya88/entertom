@@ -1,0 +1,22 @@
+{
+  "name": "entertom",
+  "version": "1.0.0",
+  "description": "Making sure tom can enter into the application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rchovatiya88/entertom.git"
+  },
+  "author": "Ronak Chovatiya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rchovatiya88/entertom/issues"
+  },
+  "homepage": "https://github.com/rchovatiya88/entertom#readme",
+  "dependencies": {
+    "cypress": "^3.1.0"
+  }
+}

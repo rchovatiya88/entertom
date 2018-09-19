@@ -41,4 +41,8 @@ Create a set a test cases to validate Login Functionality.
 - And - Assert page is visible
 - And - Various Major links are accessible and working. 
 
+### How to run tests
 
+ - Git clone or Download this repo `entertom` 
+ - Navigate to the Folder in the terminal and run `npm install` in terminal, this will install all the dependecies including cypress
+- Now to run the tests navigate to main folder `entertom` in your terminal and run command `npm cypress open`, this will open cypress UI and you can run all tests by clicking the spec files. 

@@ -2,7 +2,7 @@
   "name": "entertom",
   "version": "1.0.0",
   "description": "Making sure tom can enter into the application",
-  "main": "index.js",
+  "main": "test.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
